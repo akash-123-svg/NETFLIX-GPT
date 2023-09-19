@@ -2,6 +2,8 @@
 
 - Create Recat App
 - Configured TailwindCSS
+- Header
+- Login form
 
 
 # Features
