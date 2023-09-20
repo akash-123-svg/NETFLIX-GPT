@@ -11,6 +11,7 @@
 - Firebase setup
 - Deploying our App to Production
 - Create SingUp User Account
+- Create SignIn user Account
 
 
 
