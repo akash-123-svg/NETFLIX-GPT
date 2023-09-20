@@ -3,7 +3,15 @@
 - Create Recat App
 - Configured TailwindCSS
 - Header
+- Routing of App
 - Login form
+- Sign Up Form 
+- Form validation
+- useRef Hook
+- Firebase setup
+- Deploying our App to Production
+- Create SingUp User Account
+
 
 
 # Features
