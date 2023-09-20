@@ -15,7 +15,7 @@ const Login = () => {
 
     const handleButtonClick = () => {
        // validate the form data
-       const msg = CheckValidData(name.current.value,email.current.value,password.current.value);
+       const msg = CheckValidData(email.current.value,password.current.value);
        setErrorMessage(msg);
        if(msg) return;
 
@@ -36,7 +36,7 @@ const Login = () => {
      }
       else {
           // Sign In logic
-          signInWithEmailAndPassword(auth, email, password)
+          signInWithEmailAndPassword(auth, email.current.value, password.current.value)
           .then((userCredential) => {
             // Signed in 
             const user = userCredential.user;
