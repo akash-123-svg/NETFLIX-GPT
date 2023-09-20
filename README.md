@@ -10,8 +10,7 @@
 - useRef Hook
 - Firebase setup
 - Deploying our App to Production
-- Create SingUp User Account
-- Create SignIn user Account
+- Create SingIn / SingUp User Account
 
 
 
