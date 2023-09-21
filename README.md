@@ -11,7 +11,11 @@
 - Firebase setup
 - Deploying our App to Production
 - Create SingUp User Account
-- Create SignIn user Account
+- Implement Sign In user Api
+- Created Redux Store with userSlice
+- Implemented Sign Out
+- update profile
+
 
 
 
