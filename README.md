@@ -16,9 +16,6 @@
 - Implemented Sign Out
 - update profile
 
-- Create SingIn / SingUp User Account
-
-
 
 # Features
 - Login/Sign Up
