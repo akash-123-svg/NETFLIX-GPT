@@ -47,8 +47,10 @@ const Login = () => {
             // Signed in 
             const user = userCredential.user;
             updateProfile(user, {
-              displayName: name.current.value, photoURL: "https://avatars.githubusercontent.com/u/72224058?v=4",
-            }).then(() => {
+              displayName: name.current.value, 
+              photoURL: "https://avatars.githubusercontent.com/u/72224058?v=4",
+            })
+            .then(() => {
               // Profile updated!
               const {uid, email,displayName,photoURL} = auth.currentUser;
               dispatch(addUser({uid: uid, email: email, displayName: displayName, photoURL: photoURL}));

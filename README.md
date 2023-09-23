@@ -15,6 +15,7 @@
 - Created Redux Store with userSlice
 - Implemented Sign Out
 - update profile
+- ftech from TMDB Movies
 
 
 # Features
